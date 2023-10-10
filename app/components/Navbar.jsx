@@ -7,7 +7,7 @@ export default function Navbar() {
     <motion.nav
       initial={{ translateY: -120 }}
       animate={{ translateY: 0 }}
-      className="top-0 sticky w-full flex justify-center items-center py-1 px-2 lg:px-32 backdrop-blur-lg bg-white/20 border-2 border-slate-950 overflow-visible z-10 rounded-xl"
+      className="top-[5%] sticky w-full flex justify-center items-center py-1 px-2 lg:px-32 backdrop-blur-lg bg-white/20 overflow-visible z-10 rounded-xl"
     >
       <div className="w-full lg:block hidden">
         <ul className="w-full flex justify-between items-center text-l lg:text-xl text-white  py-4 font-semibold font-sans ">
