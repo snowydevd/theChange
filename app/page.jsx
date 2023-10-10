@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center p-8 overflow-auto">
-      <section className="w-full lg:w-2/4 rounded-lg text-white min-h-full">
+    <main className="flex flex-col items-center lg:p-8">
+      <section className="w-full lg:w-2/4 rounded-lg text-white min-h-full ">
         <Navbar />
         <div
           id="home"
@@ -40,6 +40,9 @@ export default function Home() {
         >
           <div className="w-full h-[500px] rounded-lg lg:px-52 lg:block hidden mb-32">
             <Spline scene="https://prod.spline.design/obcSeh3Eawtq7XNT/scene.splinecode" />
+          </div>
+          <div className=" h-[500px] rounded-lg lg:hidden  py-5 block mb-32 ">
+            <Spline scene="https://prod.spline.design/q3AgkpJ57jXhvD6O/scene.splinecode" />
           </div>
         </motion.div>
 

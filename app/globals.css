@@ -29,7 +29,7 @@ body {
 }
 .gradiente {
   background: #cf48cf;
-  background: linear-gradient(to right, #cf48cf 0%, #2f0ba3 60%);
+  background: linear-gradient(to right, #cf48cf 0%, #3460a3 53%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
