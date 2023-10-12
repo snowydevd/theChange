@@ -49,10 +49,10 @@ export default function Home() {
         <motion.section
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          className="flex lg:flex-row flex-col p-3 gap-1"
+          className="flex lg:flex-row flex-col p-3 gap-1   justify-center items-center"
         >
           <div
-            className="w-full lg:w-2/4 bg-white text-black h-[30vh] lg:h-[40vh] rounded-xl p-6 text-left"
+            className="w-full lg:w-2/4 bg-white text-black rounded-xl p-9 text-left"
             id="about"
           >
             <h3 className="text-sans font-bold text-2xl lg:text-3xl ">
@@ -73,9 +73,9 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="w-full lg:w-2/4 flex flex-col gap-1 h-[40vh]">
+          <div className="w-full lg:w-2/4 flex flex-col gap-1 ">
             <div
-              className="w-full bg-white text-black  rounded-xl p-6  h-[20vh]"
+              className="w-full bg-white text-black  rounded-xl p-9"
               id="about"
             >
               <h3 className="text-sans text-2xl font-bold lg:text-2xl ">
@@ -88,7 +88,7 @@ export default function Home() {
             </div>
 
             <div
-              className="w-full bg-white text-black rounded-xl p-6  h-[20vh]"
+              className="w-full bg-white text-black rounded-xl p-6 "
               id="about"
             >
               <h3 className="text-sans text-2xl font-bold lg:text-2xl ">
